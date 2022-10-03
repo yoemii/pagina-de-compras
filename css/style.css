@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BARRA DE NAVEGACION */
+header{
+    overflow: hidden;
+    height: 100px;
+}
+
+.nav_bar{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    margin: 10px;
+    color: black;
+}
+
+
+/* CONTENIDO DE LA PAGINA */
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    margin: 60px;
+}
+
+.banner{
+    width: 300px;
+}
+
+.information{
+    width: 500px;
+}
+
+.description_iphone{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.botonMasInfo{
+    margin-top: 10px;
+    background-color: rgb(0, 28, 130);
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* PIE DE PAGINA (FINAL) */
